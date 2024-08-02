@@ -1,5 +1,7 @@
+import "./index.css";
+
 function App() {
-  return <div>test</div>;
+  return <div className="text-blue-50">test</div>;
 }
 
 export { App };

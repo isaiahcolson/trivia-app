@@ -2,7 +2,6 @@ import { createRoot } from "react-dom/client";
 import { App } from "./App";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import "./index.css";
 
 const firebaseConfig = {
   apiKey: "AIzaSyA7lcJEmKtYuyD8WBDNkh066_rybwYy26I",
