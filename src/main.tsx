@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { App } from "./App.tsx";
+import { App } from "./App";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import "./index.css";
@@ -15,6 +15,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const analytics = getAnalytics(app);
 
 const container = document.getElementById("root") as HTMLElement;
